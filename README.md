@@ -1,3 +1,5 @@
+## How to get started
+
 clone the repo
 
 cd to repo
@@ -10,16 +12,17 @@ run rake to check if everything works for your setup
 to add seed data run rake:seed
 
 then to see the api in action run:
-rackup
+
+ rackup
 
 the server starts on port 9292 by default
 
 in your browser you can check out the following URIs:
 
-/v1/index
-/v1/overall
-/v1/xp
-/v1/honor
-/v1/might
+- locahost:9292/v1/index
+- locahost:9292/v1/overall
+- locahost:9292/v1/xp
+- locahost:9292/v1/honor
+- locahost:9292/v1/might
 
 There we have our user rankings!
